@@ -31,6 +31,7 @@ form {
   border-radius: 25px;
   background-color: #fff;
   padding: 25px;
+  
 }
 
 .title {
@@ -124,4 +125,16 @@ form {
 
 .noTasks {
   font-size: 48px;
+}
+
+@media screen and (max-width: 870px) {
+  .mainCard{
+    min-width: 50vw;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .mainCard{
+    min-width: 60vw;
+  }
 }
